@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+// https://www.acmicpc.net/problem/24479
 public class DFS1 {
 
     static int count;
