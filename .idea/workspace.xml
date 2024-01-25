@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05e77e62-9b44-4d79-aeb1-1fe45921532d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphtraversal/DFS1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphtraversal/DFS2.java" beforeDir="false" />
-    </list>
+    <list default="true" id="05e77e62-9b44-4d79-aeb1-1fe45921532d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,7 +120,7 @@
       <option name="presentableId" value="Default" />
       <updated>1705232968241</updated>
       <workItem from="1705232969333" duration="17367000" />
-      <workItem from="1706014430317" duration="5685000" />
+      <workItem from="1706014430317" duration="6335000" />
     </task>
     <servers />
   </component>
