@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="05e77e62-9b44-4d79-aeb1-1fe45921532d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphtraversal/DFS1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphtraversal/DFS2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,27 +30,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.DFS2">
-    <configuration name="DFS1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphtraversal.DFS1" />
+}]]></component>
+  <component name="RunManager" selected="Application.BFS1">
+    <configuration name="BFS1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphtraversal.bfs.BFS1" />
       <module name="OnlyPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graphtraversal.*" />
+          <option name="PATTERN" value="graphtraversal.bfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DFS1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphtraversal.dfs.DFS1" />
+      <module name="OnlyPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graphtraversal.dfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,11 +73,11 @@
       </method>
     </configuration>
     <configuration name="DFS2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphtraversal.DFS2" />
+      <option name="MAIN_CLASS_NAME" value="graphtraversal.dfs.DFS2" />
       <module name="OnlyPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graphtraversal.*" />
+          <option name="PATTERN" value="graphtraversal.dfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,6 +107,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BFS1" />
         <item itemvalue="Application.DFS2" />
         <item itemvalue="Application.DFS1" />
         <item itemvalue="Application.Dp1" />
@@ -107,7 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1705232968241</updated>
       <workItem from="1705232969333" duration="17367000" />
-      <workItem from="1706014430317" duration="1774000" />
+      <workItem from="1706014430317" duration="5685000" />
     </task>
     <servers />
   </component>
@@ -123,22 +140,22 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/graphtraversal/DFS1.java</url>
+          <url>file://$PROJECT_DIR$/src/graphtraversal/dfs/DFS1.java</url>
           <line>34</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/graphtraversal/DFS1.java</url>
+          <url>file://$PROJECT_DIR$/src/graphtraversal/dfs/DFS1.java</url>
           <line>32</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/graphtraversal/DFS2.java</url>
-          <line>28</line>
+          <url>file://$PROJECT_DIR$/src/graphtraversal/dfs/DFS2.java</url>
+          <line>30</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/graphtraversal/DFS1.java</url>
+          <url>file://$PROJECT_DIR$/src/graphtraversal/dfs/DFS1.java</url>
           <line>7</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
