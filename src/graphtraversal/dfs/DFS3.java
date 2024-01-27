@@ -22,7 +22,7 @@ public class DFS3 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
 
-        graph = new int[N + 10][N + 10];
+        graph = new int[N + 2][N + 2];
         visited = new boolean[N + 1][N + 1];
 
         for (int i = 1; i <= N; i++) {
@@ -50,13 +50,9 @@ public class DFS3 {
         for(int i = 0; i < 4; i++) {
             int nx = x + dx[i];
             int ny = y + dy[i];
-            if(graph[ny][nx] == 1 && !visited[ny][nx] && checkBoundary(nx, ny, graph.length)) {
+            if(graph[ny][nx] == 1 && !visited[ny][nx]) {
                 DFS(ny, nx);
             }
         }
-    }
-
-    static boolean checkBoundary(int x, int y, int N) {
-        return x < N && y < N;
     }
 }
