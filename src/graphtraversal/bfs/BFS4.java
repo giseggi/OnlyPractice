@@ -39,12 +39,12 @@ public class BFS4 {
             graph.get(i).add(i * 2);
         }
         level = 1;
-        BFS(N, K);
+        BFS(N);
         System.out.println(visited[K]);
 
     }
 
-    static void BFS(int N, int K) {
+    static void BFS(int N) {
         int nextLevelCount = 1;
         int temp = 0;
         visited[N] = 0;
